@@ -312,3 +312,150 @@ header .container .browse-button a {
     margin-left: 45px;
     
 }
+
+.basket-item-list .container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+
+
+.basket-item-list .container .items{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.margin-from-top{
+    margin-top: 37px;
+    
+
+
+}
+
+
+
+
+
+.basket-item-list .item{
+
+    border-radius: 24px;
+    border: solid 2px #E6E6E6;
+    overflow: hidden;
+    width: 821px;
+    height: 159px;
+    background-color: #FAFAF5;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.basket-item-list .item .item-image-desc-wrapper{
+
+    display: flex;
+    
+}
+
+.basket-item-list .item .price{
+
+    width: 57px;
+    height: 26px;
+    background-color: #FAFAF5;
+    margin-top: 28px;
+    font-size: 20px;
+    margin-right: 28px;
+   
+    
+}
+
+
+.basket-item-list .item h3{
+
+    font-size: 20px;
+}
+.basket-item-list .item h4{
+
+    font-size: 20px;
+    color: #426B1F;
+    margin-bottom: 22px;
+   
+}
+
+.basket-item-list .item .editable-amount{
+
+    width: 128px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid 2px #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-item-list .item .item-description{
+
+    margin-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.basket-item-list .item .item-description .editable-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.basket-item-list .container .order-summary{
+
+
+    width: 395px;
+    height: 318px;
+    background-color: #FAFAF5;
+    border-radius: 24px;
+    border: solid 2px #E6E6E6;
+    padding: 24px;
+}
+
+.basket-item-list .container .order-summary .total-wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.margin-from-the-top-37{
+    margin-top: 37px;
+}
+
+
+.margin-from-the-top-20{
+
+    margin-top: 20px;
+}
+
+.basket-item-list .container .order-summary .payment-wrapper{
+
+display: flex;
+justify-content: space-between;
+width: 347px;
+height: 48px;
+background-color: #426B1F;
+margin-top: 30px;
+border-radius: 4px;
+color: #FFFFFF;
+padding-left: 15px;
+padding-top: 15px;
+padding-right: 15px;
+}
+
+.basket-item-list .container .order-summary .payment-wrapper a{
+    color: #FFFFFF;
+}
