@@ -277,6 +277,7 @@ header .container .browse-button a {
 .item-list .container {
     margin-top: 20px;
     display: flex;
+    
     flex-wrap: wrap;
 }
 
@@ -284,14 +285,26 @@ header .container .browse-button a {
     border-radius: 24px 24px;
     background-color: #FAFAF5;
     max-width: 395px;
-    max-height: 444px;
+    max-height: auto;
+    overflow: hidden;
+
+
+}
+
+.item-list .loading {
+    border-radius: 24px 24px;
+    background-color: #FAFAF5;
+    max-width: 395px;
+    max-height: auto;
     overflow: hidden;
 
 
 }
 
 .item-list .item .item-img img {
-    width: 100%;
+    /*width: 100%; */
+    max-width: 395px;
+    max-height: 296px;
 
 }
 
@@ -323,6 +336,9 @@ header .container .browse-button a {
 
     margin-left: 45px;
 
+}
+.margin-from-bottom{
+    margin-bottom: 45px;
 }
 
 
@@ -596,7 +612,11 @@ header .container .browse-button a {
     }
 
     .item-list .item {
-        max-width: 300px;
+        /* max-width: 300px;  */
+
+        width: 100%;
+
+       
     }
 
 
